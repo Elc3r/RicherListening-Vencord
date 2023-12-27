@@ -3,6 +3,10 @@ A plugin that provides a simple header rewrite to allow other music clients to s
 
 This is a fork, the original creator is cryptofyre.
 
+## Supported music clients
+- [Cider](https://cider.sh/)
+- [AMWin-RP](https://github.com/PKBeam/AMWin-RP)
+
 ## Installation Guide
 
 #### You'll need the following dependencies
