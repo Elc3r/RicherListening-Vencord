@@ -6,6 +6,7 @@ This is a fork, the original creator is cryptofyre.
 ## Supported music clients
 - [Cider](https://cider.sh/)
 - [AMWin-RP](https://github.com/PKBeam/AMWin-RP)
+- [apple-music-discord-rpc](https://github.com/NextFire/apple-music-discord-rpc)
 
 ## Installation Guide
 

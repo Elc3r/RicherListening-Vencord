@@ -24,7 +24,9 @@ const appIds = [
     "886578863147192350",
     "1020414178047041627",
     "1032800329332445255",
-    "1066220978406953012" // AMWin-RP
+    "1066220978406953012", // AMWin-RP
+    "773825528921849856", // apple-music-discord-rpc (Music)
+    "979297966739300416" // apple-music-discord-rpc (iTunes)
 ];
 export default definePlugin({
     name: "richerCider",
