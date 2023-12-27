@@ -29,11 +29,14 @@ const appIds = [
     "979297966739300416" // apple-music-discord-rpc (iTunes)
 ];
 export default definePlugin({
-    name: "richerCider",
-    description: "Enhances Cider (More details in info button) by adding the \"Listening to\" type prefix to the user's rich presence when an applicable ID is found.",
+    name: "RicherListening",
+    description: "A simple plugin to allow other music clients to use popular Discord types such as \"Listening to\" type prefix to the user's rich presence when an applicable ID is found.",
     authors: [{
         id: 191621342473224192n,
         name: "cryptofyre",
+    },{
+        id: 540970385802526731n,
+        name: "Elc3r",
     }],
     patches: [
         {
@@ -51,24 +54,6 @@ export default definePlugin({
             }
         }
     ],
-    settingsAboutComponent: () => (
-        <>
-            <Forms.FormTitle tag="h3">Install Cider to use this Plugin</Forms.FormTitle>
-            <Forms.FormText>
-                <Link href="https://cider.sh">Follow the link to our website</Link> to get Cider up and running, and then enable the plugin.
-            </Forms.FormText>
-            <br></br>
-            <Forms.FormTitle tag="h3">What is Cider?</Forms.FormTitle>
-            <Forms.FormText>
-                Cider is an open-source and community oriented Apple Music client for Windows, macOS, and Linux.
-            </Forms.FormText>
-            <br></br>
-            <Forms.FormTitle tag="h3">Recommended Optional Plugins</Forms.FormTitle>
-            <Forms.FormText>
-                I'd recommend using TimeBarAllActivities alongside this plugin to give off a much better visual to the eye (Keep in mind this only affects your client and will not show for other users)
-            </Forms.FormText>
-        </>
-    ),
     patchActivity(activity: any) {
         if (appIds.includes(activity.application_id)) {
             activity.type = 2; /* LISTENING type */

@@ -19,7 +19,7 @@ This is a fork, the original creator is cryptofyre.
 ```
 git clone https://github.com/Vendicated/Vencord
 ```
-- move "richerCider.desktop.tsx" to \Vencord\src\plugins
+- move "RicherListening-Vencord" to \Vencord\src\plugins
 ```
 cd Vencord
 ```
