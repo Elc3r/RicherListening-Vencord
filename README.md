@@ -1,7 +1,7 @@
-# richerCider Plugin for Vencord
-A plugin that provides a simple header rewrite to allow Cider to show as the listening activity type.
+# RicherListening Plugin for Vencord
+A plugin that provides a simple header rewrite to allow other music clients to show as the listening activity type.
 
-Created by cryptofyre
+This is a fork, the original creator is cryptofyre.
 
 ## Installation Guide
 
@@ -10,7 +10,25 @@ Created by cryptofyre
 - Node.JS (https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi)
 - pnpm (Install with `npm install -g pnpm`)
 
-### Run the following in Powershell
+### How to build
+```
+git clone https://github.com/Vendicated/Vencord
+```
+- move "richerCider.desktop.tsx" to \Vencord\src\plugins
+```
+cd Vencord
+```
+```
+pnpm install
+```
+```
+pnpm build
+```
+```
+pnpm inject
+```
+
+### Or run the following in Powershell
 ```
 git clone https://github.com/Vendicated/Vencord; curl https://raw.githubusercontent.com/ciderapp/RicherCider-Vencord/main/richerCider.desktop.tsx -o Vencord/src/plugins/richerCider.desktop.tsx; cd Vencord/; pnpm install; pnpm build; pnpm inject;
 ```
