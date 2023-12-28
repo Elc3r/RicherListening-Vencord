@@ -6,9 +6,11 @@ const appIds = [
     "886578863147192350",
     "1020414178047041627",
     "1032800329332445255",
-    "1066220978406953012", // AMWin-RP
-    "773825528921849856", // apple-music-discord-rpc (Music)
-    "979297966739300416" // apple-music-discord-rpc (iTunes)
+    "1066220978406953012",  // AMWin-RP
+    "773825528921849856",   // apple-music-discord-rpc (Music)
+    "979297966739300416",   // apple-music-discord-rpc (iTunes)
+    "463151177836658699",   // PreMiD (YouTube Music)
+    "802958833214423081"    // PreMiD (SoundCloud)
 ];
 export default definePlugin({
     name: "RicherListening",

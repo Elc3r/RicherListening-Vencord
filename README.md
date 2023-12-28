@@ -7,6 +7,8 @@ This is a fork, the original creator is cryptofyre.
 - [Cider](https://cider.sh/)
 - [AMWin-RP](https://github.com/PKBeam/AMWin-RP)
 - [apple-music-discord-rpc](https://github.com/NextFire/apple-music-discord-rpc)
+- [PreMiD Youtube Music](https://premid.app/store/presences/YouTube%20Music)
+- [PreMiD SoundCloud](https://premid.app/store/presences/SoundCloud)
 
 ## Installation Guide
 
