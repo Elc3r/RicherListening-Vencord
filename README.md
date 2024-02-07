@@ -19,20 +19,12 @@ This is a fork, the original creator is cryptofyre.
 
 ### How to build
 ```
-git clone https://github.com/Vendicated/Vencord
-```
-- move "RicherListening-Vencord" to \Vencord\src\plugins
-```
-cd Vencord
-```
-```
-pnpm install
-```
-```
-pnpm build
-```
-```
-pnpm inject
+git clone https://github.com/Vendicated/Vencord;
+cd Vencord/src/plugins/;
+git clone https://github.com/Elc3r/RicherListening-Vencord.git;
+cd ..;
+cd ..;
+pnpm install; pnpm build; pnpm inject;
 ```
 
 
